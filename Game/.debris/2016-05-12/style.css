@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'TheMinion';
+    src: url('../fonts/theminion.otf');
+}
+body {
+	
+	background-color:  #fff;
+	color: #777;
+	font: normal 15px "Helvetica", Arial, Helvetica, Geneva, sans-serif;
+
+}
+
+p {
+	
+	line-height: 20px;
+	margin-bottom: 20px;
+
+}
+
+.wrapper {
+
+	margin: 0 auto;
+	padding: 0 10px;
+	width: 940px;
+
+}
+
+header {
+
+	height: 120px;
+
+}
+
+header h1 {
+
+	float: left;
+	margin-top: 32px !important;
+
+}
+
+header h1 .color {
+
+	color: #02b8dd;
+
+}
+
+header nav {
+
+	float:right;
+
+}
+
+header nav ul li {
+
+	float: left;
+	display: inline-block;
+	margin-top: 50px;
+
+}
+
+#game_div {
+
+	background-color: white;
+	padding: 60px 0;
+	text-align: center;
+	height: 400px;
+	width: 800px;
+	margin: auto;
+
+}
+
+@media (min-width: 768px) { }
+ 
+
+@media (min-width: 1024px) { }
+ 
+
+@media (min-width: 1200px) { 
+#game_div {
+
+	background-color: white;
+	padding: 60px 0;
+	text-align: center;
+	height: 400px;
+	width: 800px;
+	margin: auto;
+
+}}
+#game_div h3 {
+
+	display: block;
+	margin: 0 auto 20px auto;
+	width: 400px;
+	border-bottom: 1px solid #02b8dd;
+	padding: 0 0 20px 0;
+
+}
+
+#footer-info {
+
+	margin: 0 auto;
+	padding: 0 10px;
+	width: 940px;
+
+}
+
+#footer-info p{
+
+  text-align: center
+}
+
+canvas {
+
+	display: block;
+	margin: auto;
+
+}
+
+footer {
+
+	padding: 60px 0;
+
+}
+
+button {
+
+	line-height: 1;
+	border: 0;
+	background: #00ccff;
+	font-family: 'Press Start 2P', sans-serif;
+	font-weight: 400;
+	font-size: 3vh;
+	margin-top: 5%;
+	padding: 0.5em 1em;
+	margin-right: 2%;
+
+}
+
+button:hover, button:focus {
+
+	outline: 0.125em solid #00ccff;
+	outline-offset: 0.25em;
+
+}
+
+.USU {
+
+	font-family: : 'Press Start 2P', sans-serif;
+	font-size: 16px;
+}
+
+
+
+.form-signin {
+            max-width: 330px;
+            padding: 15px;
+            margin: 0 auto;
+            color: #017572;
+         }
+         
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+         
+.form-signin .checkbox {
+    font-weight: normal;
+}
+         
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+         
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+         
+.form-signin input[type="username"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-color:#017572;
+}
+         
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+         
+h2 {
+    text-align: center;
+    color: #017572;
+}
+
+#LeaderBoard {
+	display:block;
+	position:absolute;
+    width:350px;
+    margin-top: 60px;
+    margin-left: 1400px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 10px;
+	border-radius: 25px;
+    border: 2px solid black;
+}
+
+#LeaderBoard h1 {
+  text-align: center;
+  font-family: news-gothic-std, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  background-color: #edde9c;
+  color: #bc2e1e;
+  text-shadow:
+    0 1px 0px #378ab4,
+    1px 0 0px #5dabcd,
+    1px 2px 1px #378ab4,
+    2px 1px 1px #5dabcd,
+    2px 3px 2px #378ab4,
+    3px 2px 2px #5dabcd,
+    3px 4px 2px #378ab4,
+    4px 3px 3px #5dabcd,
+    4px 5px 3px #378ab4,
+    5px 4px 2px #5dabcd,
+    5px 6px 2px #378ab4,
+    6px 5px 2px #5dabcd,
+    6px 7px 1px #378ab4,
+    7px 6px 1px #5dabcd,
+    7px 8px 0px #378ab4,
+    8px 7px 0px #5dabcd;
+} 
+
+
+
+

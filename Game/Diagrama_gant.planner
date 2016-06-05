@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<project name="" company="" manager="" phase="" project-start="20151120T000000Z" mrproject-version="2" calendar="1">
+  <properties/>
+  <phases/>
+  <calendars>
+    <day-types>
+      <day-type id="0" name="Laborable" description="Un dia laborable predeterminat"/>
+      <day-type id="1" name="Festiu" description="Un dia festiu predeterminat"/>
+      <day-type id="2" name="Fes servir la base" description="Fes servir un dia del calendari base"/>
+    </day-types>
+    <calendar id="1" name="Predeterminat">
+      <default-week mon="0" tue="0" wed="0" thu="0" fri="0" sat="1" sun="1"/>
+      <overridden-day-types>
+        <overridden-day-type id="0">
+          <interval start="0800" end="1200"/>
+          <interval start="1300" end="1700"/>
+        </overridden-day-type>
+      </overridden-day-types>
+      <days/>
+      <calendar id="2" name="Projecte">
+        <default-week mon="2" tue="2" wed="2" thu="2" fri="2" sat="2" sun="2"/>
+        <overridden-day-types/>
+        <days>
+          <day date="20151120" type="day-type" id="0"/>
+        </days>
+      </calendar>
+    </calendar>
+  </calendars>
+  <tasks>
+    <task id="1" name="Concepci&#xF3;n" note="" work="230400" start="20151120T000000Z" end="20151130T170000Z" work-start="20151120T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="2" name="G&#xE9;nero" note="Dentro de que g&#xE9;neros se va a desarrollar el juego,&#10;De no corresponder a un g&#xE9;nero muy conocido, &#10;se deben especificar las caracteristicas " work="57600" start="20151120T000000Z" end="20151123T170000Z" work-start="20151120T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="3" name="Game play" note="Lo que generara diversion a la hora de jugarlo" work="86400" start="20151124T000000Z" end="20151126T170000Z" work-start="20151124T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20151124T000000Z"/>
+      </task>
+      <task id="4" name="Story board" note="Algunas ideas sueltas acerca de c&#xF3;mo debe lucir &#10;el juego en cuanto a personajes , ambientacion, musica&#10;etc." work="86400" start="20151126T000000Z" end="20151130T170000Z" work-start="20151126T080000Z" percent-complete="25" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20151126T000000Z"/>
+      </task>
+    </task>
+    <task id="5" name="Dise&#xF1;o" note="" work="720000" start="20151120T000000Z" end="20160511T170000Z" work-start="20151120T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="6" name="Historia" note="Forma en que se desenvolver&#xE1;n los personajes del juego y la historia del mundo (o planeta en especifico)&#10;Casi todos los juegos tienen historia" work="172800" start="20151120T000000Z" end="20151127T170000Z" work-start="20151120T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="7" name="Arte conceptual" note="" work="172800" start="20151227T000000Z" end="20160104T170000Z" work-start="20151228T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20151227T000000Z"/>
+      </task>
+      <task id="8" name="Sonido" note="" work="86400" start="20160509T000000Z" end="20160511T170000Z" work-start="20160509T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20160509T000000Z"/>
+      </task>
+      <task id="9" name="Mecanica" note="" work="28800" start="20151120T000000Z" end="20151120T170000Z" work-start="20151120T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="10" name="Dise&#xF1;o de programacion" note="" work="259200" start="20151120T000000Z" end="20151202T170000Z" work-start="20151120T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    </task>
+    <task id="11" name="Planificaci&#xF3;n" note="" work="288000" start="20151120T000000Z" end="20151203T170000Z" work-start="20151120T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="12" name="Producci&#xF3;n" note="" work="3081600" start="20160329T000000Z" end="20160801T170000Z" work-start="20160329T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="13" name="Programacion" note="" work="2592000" start="20160329T000000Z" end="20160801T170000Z" work-start="20160329T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20160329T000000Z"/>
+      </task>
+      <task id="14" name="Ilustraci&#xF3;n" note="" work="201600" start="20160516T000000Z" end="20160524T170000Z" work-start="20160516T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20160516T000000Z"/>
+      </task>
+      <task id="15" name="Interfaz" note="" work="172800" start="20160509T000000Z" end="20160516T170000Z" work-start="20160509T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20160509T000000Z"/>
+      </task>
+      <task id="16" name="Animaci&#xF3;n" note="" work="86400" start="20160519T000000Z" end="20160523T170000Z" work-start="20160519T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20160519T000000Z"/>
+      </task>
+      <task id="17" name="Sonido" note="" work="28800" start="20160520T000000Z" end="20160520T170000Z" work-start="20160520T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20160520T000000Z"/>
+      </task>
+    </task>
+    <task id="18" name="Pruebas" note="" work="86400" start="20151120T000000Z" end="20151120T170000Z" work-start="20151120T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="19" name="Pruebas fisicas" note="" work="28800" start="20151120T000000Z" end="20151120T170000Z" work-start="20151120T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="20" name="Pruebas alpha" note="" work="28800" start="20151120T000000Z" end="20151120T170000Z" work-start="20151120T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="21" name="Pruebas beta" note="" work="28800" start="20151120T000000Z" end="20151120T170000Z" work-start="20151120T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    </task>
+    <task id="22" name="Mantenimientos" note="" work="28800" start="20151120T000000Z" end="20151120T170000Z" work-start="20151120T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+  </tasks>
+  <resource-groups/>
+  <resources/>
+  <allocations/>
+</project>

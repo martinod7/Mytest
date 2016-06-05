@@ -1,0 +1,226 @@
+
+body {
+	
+	background-color:  #fff;
+	color: #777;
+	font: normal 15px "Helvetica", Arial, Helvetica, Geneva, sans-serif;
+
+}
+
+p {
+	
+	line-height: 20px;
+	margin-bottom: 20px;
+
+}
+
+.wrapper {
+
+	margin: 0 auto;
+	padding: 0 10px;
+	width: 940px;
+
+}
+
+header {
+
+	height: 120px;
+
+}
+
+header h1 {
+
+	float: left;
+	margin-top: 32px !important;
+
+}
+
+header h1 .color {
+
+	color: #02b8dd;
+
+}
+
+header nav {
+
+	float:right;
+
+}
+
+header nav ul li {
+
+	float: left;
+	display: inline-block;
+	margin-top: 50px;
+
+}
+
+#game_div {
+
+	background-color: white;
+	height: 400px;
+	width: 800px;
+	margin-left: 28%;
+	text-align: center;
+}
+
+@media (min-width: 768px) { }
+ 
+
+@media (min-width: 1024px) { }
+ 
+
+@media (min-width: 1200px) { 
+#game_div {
+
+	background-color: white;
+	padding: 60px 0;
+
+	height: 400px;
+	width: 800px;
+
+
+}}
+#game_div h3 {
+
+	display: block;
+	margin: 0 auto 20px auto;
+	width: 400px;
+	border-bottom: 1px solid #02b8dd;
+	padding: 0 0 20px 0;
+
+}
+
+#footer-info {
+
+	margin: 0 auto;
+	padding: 0 10px;
+	width: 940px;
+
+}
+
+#footer-info p{
+
+  text-align: center
+}
+
+canvas {
+
+	display: block;
+	margin: auto;
+
+}
+
+footer {
+
+	padding: 60px 0;
+
+}
+
+button {
+
+	line-height: 1;
+	border: 0;
+	background: #00ccff;
+	font-family: 'Press Start 2P', sans-serif;
+	font-weight: 400;
+	font-size: 3vh;
+	margin-top: 5%;
+	padding: 0.5em 1em;
+	margin-right: 2%;
+
+}
+
+button:hover, button:focus {
+
+	outline: 0.125em solid #00ccff;
+	outline-offset: 0.25em;
+
+}
+
+.USU {
+
+	font-family: : 'Press Start 2P', sans-serif;
+	font-size: 16px;
+}
+
+
+
+.form-signin {
+            max-width: 330px;
+            padding: 15px;
+            margin: 0 auto;
+            color: #017572;
+         }
+         
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+         
+.form-signin .checkbox {
+    font-weight: normal;
+}
+         
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+         
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+         
+.form-signin input[type="username"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-color:#017572;
+}
+         
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+         
+h2 {
+    text-align: center;
+    color: #017572;
+}
+
+#LeaderBoard {
+    width:350px;
+    height: 500px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	margin-top: 55px;
+	border-radius: 25px;
+    border: 2px solid black;
+    float: right;
+}
+
+#LeaderBoard th {
+	font: bold 18px/1.1em Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 4px black;
+	letter-spacing: 0.3em;
+
+}
+
+#padre{
+display: -webkit-flex;
+display: flex;
+}
+
+#game_div,#LeaderBoard {
+	display:inline;
+}
+
+
+
+

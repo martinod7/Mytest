@@ -1,0 +1,96 @@
+<h1>IVA Reduit</h1>
+<h2></h2>
+
+function iva_4(valorProducte) {
+		var producteAmbIVA = valorProducte * 1.04;
+  	return producteAmbIVA;
+}
+
+var preuProducte = prompt("Entreu el preu del producte: ");
+var producteAmbIVA = iva_4(preuProducte);
+var missatge = "Preu del producte: " + preuProducte + "€<br /> Amb l'IVA del 4%: " + producteAmbIVA + "€";
+
+document.querySelector("h2").innerHTML = missatge;
+
+----------------------------------------------------------------------------------------------------------------
+
+var x = sumaTot(1, 123, 500, 115, 44, 88);
+var y = sumaTot(5, 345, 231);
+var z = sumaTot(x, y);
+
+function sumaTot() {
+	var sum = 0;
+  for(let i = 0; i < arguments.length; i++) {
+  	sum += arguments[i];
+  }
+  return sum;
+}
+
+------------------------------------------------------------------------------------------------------------------
+var nombres = [5, 6, 2, 3, 7];
+
+var MAX = Math.max(nombres);
+var MIN = Math.min(nombres);
+
+------------------------------------------------------------------------------------------------------------------
+
+var nombres = [5, 6, 2, 3, 7];
+
+var max = Math.max.apply(null, nombres);
+var min = Math.min.apply(null, nombres);
+
+-------------------------------------------------------------------------------------------------------------------
+
+var mesGran = function(arr) {
+		var major = 0;
+  		var len = arr.length;
+  		for(var i = 0; i < len; i++) {
+  			major = arr[i];
+  		}
+        return major;
+}
+            var intArr = [1,2,3,4,5,6,7,8];
+            alert(mesGran(intArr));
+-----------------------------------------------------------------------------------------------------------------------------
+(function(){
+var primera = 'Benvinguda';
+var segona = 'Montserrat';
+
+function salutacio() {
+	return [primera , segona].join(', '); 
+}
+  window.primera = salutacio;
+})();
+
+console.log(primera);
+console.log(primera());
+
+-------------------------------------------------------------------------------------------------------------------------------
+function inici() {
+	var nom = "Botifarró";
+    
+    function mostraNom() {
+    	console.log(nom);
+    }
+  mostraNom();
+}
+
+inici();
+---------------------------------------------------------------------------------------------------------------------------------
+Escriviu una funció que rep com a paràmetre un nombre enter i retorna com a resultat una cadena que indica si el número és parell o imparell. Mostreu el resultat per pantalla a través del mètode alert(). Recordeu que pot ser útil l’ús de l’operador mòdul %.
+
+var pregunta = parseInt(prompt("Introdueix un nombre"));
+function analizar(parametre) {
+	var resultat = "";
+  	if(parametre % 2 == 0) {
+  		resultat += "Parell";
+    }else{
+    	resultat += "Imparell";
+    }
+  return resultat;
+}
+
+alert(analizar(pregunta));
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
